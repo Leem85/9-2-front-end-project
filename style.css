@@ -1,0 +1,118 @@
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #191911;
+  color: #fff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.video-wrapper {
+  position: relative;
+  background-image: url("/images/video.mp4");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.video-wrapper img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 540px;
+  width: 540px;
+  object-fit: contain;
+}
+
+h1.tag-line {
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+form, table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+tbody, th, td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0px 12px;
+}
+form  {
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 45px;
+margin-top: 12px;
+
+}
+form label {
+  font-size: 1rem;
+  margin-right: 12px;
+  font-weight: bold;
+}
+form input[type='text'] {
+  height: auto;
+  font-size: 25px;
+  width: 320px;
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+}
+form input[type='submit'] {
+  height: 34px;
+  width: 80px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #488b04;
+}
+form input[type='submit']:hover {
+  background-color: #047d8b;
+}
+div#recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+div#recipes div.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+div#recipes hr {
+ width: 100%;
+ color: #fff;
+}
+div#recipes span {
+ text-align: justify;
+ max-width: 405px;
+}
+
+h1#search-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+a.about-btn {
+  position: fixed; 
+  bottom: 0;
+  right: 12px;
+  margin-top: 100px;
+  color: #fff;
+  cursor: pointer;
+}

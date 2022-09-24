@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>Nutra Fetch</title>
+  </head>
+  <body>
+    <div class="video-wrapper">
+      <img
+        src="/images/ Nutra Fetch-logos_black.png"
+        alt="logo"
+      /> 
+      <span>
+        <h1 class="tag-line">Helping streamline meal prep by fetching nutritional information on the go</h1>
+      </span>
+      
+    </div>
+    <form>
+      <label>
+      SEARCH FOOD
+      </label>
+      <input type="text" name="food" id="food" placeholder="Ex: 1 oz of steak" />
+     
+      <input type="submit" id="submit" value="SUBMIT" />
+    </form>
+
+    <h1 id="search-title"></h1>
+
+    <table>
+      <tr>
+        <th>Calories</th>
+        <th>Fat</th>
+        <th>Protein</th>
+        <th>Carbs</th>
+        <th>Fiber</th>
+        <th>Sugar</th>
+      </tr>
+      <tr>
+        <td id="calories"></td>
+        <td id="fat"></td>
+        <td id="protein"></td>
+        <td id="carbs"></td>
+        <td id="fiber"></td>
+        <td id="sugar"></td>
+      </tr>
+    </table>
+    <div id="recipes"></div>
+
+ <a class="about-btn" href="/about.html">About Me Page</a>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #191911;
+}
+header {
+  padding: 5px 12px;
+  float: right;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.about {
+  padding: 78px;
+}
+
+.about img {
+  height: 100%;
+    max-height: 500px;
+    align-self: center;
+    object-fit: contain;
+    width: 100%;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+h1 {
+  text-align: left;
+  font-size: 4rem;
+}
+
+h5 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+p {
+
+padding-right: 12px;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.fa {
+  padding-top: 20px;
+  font-size: 25px !important;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.fa-linkedin:hover {
+  color: rgba(30, 118, 225, 0.903);
+}
+/* Add a hover effect if you want */
+
+.fa-instagram:hover {
+ color: rgba(252, 141, 160, 0.838);
+}
